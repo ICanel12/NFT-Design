@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../assets/background_login.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+    transition: all 200ms;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    margin-top: 54px;
+}
+
+.logo{
+    float: right;
+    padding-top: 16px;
+}
+
+.logo img{
+    width: 5%;
+    margin-right: 6em;
+    float: right;
+}
+
+.logo img:hover{
+    transform: scale(1.2, 1.2) !important;
+}
+
+.menu{
+    margin-left: 16em;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+
+.menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1.2, 1.2) !important;
+}
+
+.container-general{
+    height: 72vh; 
+    display: flex; 
+    align-items: center;
+}
+
+.container{
+    width: 26%;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+::placeholder { 
+    color: #c2c2c2;
+}
+
+h1{
+    letter-spacing: 1px;
+    text-align: center;
+    color: #B8AB9C;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input{
+    background: #282784;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+input,
+button{
+    height: 38px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 16px;
+    border: none;
+}
+
+button{
+    background-color: #BA4340;
+    color: white;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #aa2e2c;
+}
+
+button:hover{
+    background-color: #aa2e2c;
+}
+
+.container-log{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.horizontal-line{
+    margin-left: 62px;
+    transform: scaleX(32); 
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+.btn-login{
+    background: transparent;
+    border: 1px solid #B6B6B6;
+}
+
+.btn-login:hover{
+    background: rgb(56, 55, 55);
+}
+
+.img-google{
+    width: 17px; 
+    padding-right: 14px;
+}
+
+.or-log{
+    margin: 0 auto;
+}
+
+.redirection{
+    color: white;
+    text-decoration: none;
+}
+
+.redirection:hover{
+    color: #37bcf9;
+}
