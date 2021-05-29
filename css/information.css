@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../assets/background_information.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+    transition: all 200ms;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    margin-top: 54px;
+}
+
+.logo{
+    float: right;
+    padding-top: 16px;
+}
+
+.logo img{
+    width: 5%;
+    margin-right: 6em;
+    float: right;
+}
+
+
+.logo img:hover{
+    transform: scale(1.2, 1.2) !important;
+}
+
+
+.menu{
+    margin-left: 16em;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+
+.menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1.2, 1.2) !important;
+}
+
+.container{
+    width: 90%;
+    height: 2em;
+    margin: 0 auto;
+    display: flex;
+    height: 38vh;
+    align-items: center;
+}
+
+h1{
+   color: #B8AB9C;
+   font-size: 88px !important;
+   line-height: 85px !important;
+   font-family: 'Heebo', sans-serif;
+}
+
+.section{
+    width: 33.33%;
+    height: 2em;
+}
+
+.section p{
+    font-size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+}
+
+.sec-one{
+    position: relative;
+    bottom: -80px;
+}
+
+.sec-two{
+    text-align: center;
+    position: relative;
+    bottom: -285px;
+}
+
+.btn-video{
+    background: transparent;
+    color: white;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #B6B6B6;
+    margin-top: 2em;
+}
+
+.btn-video:hover{
+    background: rgb(56, 55, 55);
+}
+
+p{
+    color: white;
+}
+
+.btn-options{
+    background: transparent;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 15px 0px 15px;
+}
+
+.btn-options:hover{
+    transform: scale(1.2, 1.2);  
+}
+
+.btn-options img{
+    width: 64px;
+}
+
+.btn-add{
+    background: transparent;
+    color: white;
+    width: 182px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #B6B6B6;
+    line-height: 10px;
+}
+
+.btn-add:hover{
+    background: rgb(56, 55, 55);
+}
+
+.add-car{
+    height: 64px;
+    margin-bottom: 20px; 
+    display: flex;
+}
+
+.add-car img{
+    width: 13%; 
+    height: 100%; 
+    margin-right: 26px;
+}
+
+.container-btn-add{
+    line-height: 64px;
+}
+
+.container-bit{
+    height: 48px; 
+}
+
+.container-bit p{
+    float: right;
+    font-size: 25px;
+    line-height: 48px;
+}
+
+.container-bit img{
+    width: 10%; 
+    float: right; 
+    margin-right: 10px;
+}
+
+.progress{
+    background-color: #bdbebe !important;
+    height: 10px !important;
+    width: 26em !important;
+    margin-top: 10px !important;
+}
+
+.container-play{
+    display: flex;
+    width: 100%; 
+    margin-top: 25px;
+}
+
+.img-left{
+    width: 5%;     
+    height: 30px; 
+    cursor: pointer; 
+    margin: 0px 33px 0px 10px;
+}
+
+.img-left:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.img-right:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.img-right{
+    width: 5%;    
+    height: 30px; 
+    cursor: pointer; 
+    margin: 0px 10px 0px 33px;
+}
+
+.img-play:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.img-play{
+    width: 5%;   
+    height: 30px; 
+    cursor: pointer; 
+    margin: 0px 14px 0px 0px;
+}
