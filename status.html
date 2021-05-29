@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bought.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <script src="js/slide.js"></script>
+
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <img src="assets/layer1.png" alt="">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">EXPLORAR</a></li>
+                <li><a href="#">PERFIL</a></li>
+                <li><a href="#">COMPRADOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/background_carrousel.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/background_carrousel.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/background_carrousel.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="description">
+
+            <h1>LOREM</h1>
+            <img class="bar" src="assets/bar_contents_t.png" alt="">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.
+            </p>
+
+        </div>
+
+        <div class="contents">
+
+            <div class="main">
+                <p>Contents</p>
+                <div class="slider slider-nav">
+                    <div>
+                        <img class="img-nav" src="assets/background_login.png" alt=""> 
+                    </div>
+                    <div>
+                        <img class="img-nav" src="assets/content2.png" alt=""> 
+                    </div>
+                    <div>
+                        <img class="img-nav" src="assets/content1.png" alt=""> 
+                    </div>
+                    <div>
+                        <img class="img-nav" src="assets/background_register.jpg" alt=""> 
+                    </div>
+                    <div>
+                        <img class="img-nav" src="assets/content1.png" alt=""> 
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div style="display: grid;
+      height: 26em; position: fixed;
+    top: 30%;
+    left: 93.5%;">
+        <div style="height: 80px;">
+            <button class="options">VENDIDOS</button>
+        </div>
+
+        <div style="height: 80px;">
+            <button class="options th">COMPRADOS</button>
+        </div>
+
+        <div style="height: 80px;">
+            <button class="options">GUARDADOS</button>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
